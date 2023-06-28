@@ -8,6 +8,7 @@ import StateHook from './component/UseStateHook';
 import Home from './component/Home';
 import Home2 from './component/Home2';
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
+import EffectDemonstration from './component/UseEffectHook';
 
 function App() {
   return (
@@ -34,6 +35,11 @@ function App() {
       <br></br>
 
       <StateHook />
+
+      <br></br>
+      <br></br>
+
+      <EffectDemonstration />
 
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-// UseState - Uma forma de modificar elementos do HTML sem precisar de seletores JS
+// UseState - Uma forma de modificar dinamicamente elementos no HTML sem precisar de seletores JS
 
 const StateHook = () =>{
 
