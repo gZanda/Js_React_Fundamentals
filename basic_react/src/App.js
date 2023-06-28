@@ -4,6 +4,7 @@
 
 import './App.css';
 import Greeting from './component/Greeting.js'
+import StateHook from './component/StateHook';
 import Home from './component/Home';
 import Home2 from './component/Home2';
 import {BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -28,6 +29,11 @@ function App() {
           <Route exact path='/home2' Component={Home2}></Route>
         </Routes>
       </BrowserRouter>
+
+      <br></br>
+      <br></br>
+
+      <StateHook />
 
     </div>
   );
