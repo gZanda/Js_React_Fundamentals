@@ -1,23 +1,34 @@
-import logo from './logo.svg';
+// Supreme Component
+// Component that indexes all the others
+// É a file onde vamos colocando os outros Components que fazemos
+
 import './App.css';
+import Greeting from './component/Greeting.js'
+import Home from './component/Home';
+import Home2 from './component/Home2';
+import {BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Greeting />
+
+      <a href='/home' > Home Page </a>
+
+      <br></br>
+      <br></br>
+
+      <a href='/home2'> Second Home Page </a>
+
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/home' Component={Home}></Route>
+
+          <Route exact path='/home2' Component={Home2}></Route>
+        </Routes>
+      </BrowserRouter>
+
     </div>
   );
 }
