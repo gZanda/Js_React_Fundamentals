@@ -50,30 +50,6 @@ while (counter < 5) {
 
 // ---------------------------------------------------------------------------
 
-// If statement
-let number2 = 10;
-if (number2 > 0) {
-  console.log('Number is positive');
-} else if (number2 < 0) {
-  console.log('Number is negative');
-} else {
-  console.log('Number is zero');
-}
-
-// For loop
-for (let i = 0; i < 5; i++) {
-  console.log(i);
-}
-
-// While loop
-let counter2 = 0;
-while (counter < 5) {
-  console.log(counter2);
-  counter2++;
-}
-
-// ---------------------------------------------------------------------------
-
 // Create an array
 let fruits = ['apple', 'banana', 'orange'];
 
