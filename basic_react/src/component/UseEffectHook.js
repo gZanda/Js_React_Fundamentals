@@ -21,7 +21,7 @@ function EffectDemonstration(){
             console.log("API called");
         });
 
-        // [] indica que esse UseEffect não é afetado por nenum SetState
+        // [] indica que esse UseEffect não é afetado por nenhum Re-Render
     }, []);
 
     return (
