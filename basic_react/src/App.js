@@ -11,6 +11,7 @@ import {BrowserRouter, Route, Routes } from 'react-router-dom';
 import EffectDemonstration from './component/UseEffectHook';
 import UseReffDemonstration from './component/UseReffHook';
 import ParentComponent from './component/PropsParent';
+import ContexParent from './component/UseContextParent';
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
       <br></br>
 
       <ParentComponent />
+
+      <br></br>
+
+      <ContexParent />
 
     </div>
   );
