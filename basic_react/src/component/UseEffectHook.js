@@ -7,6 +7,7 @@ import { useEffect } from "react";
 function EffectDemonstration(){
 
     // State - OBS: Usar um setState faz a página Recarregar
+    // State = Componente / Variável
     const [data, setData] = useState("");
 
     // O que estiver aqui dentro vai ser invocado sempre a página RE-RENDER
@@ -22,6 +23,7 @@ function EffectDemonstration(){
         });
 
         // [] indica que esse UseEffect não é afetado por nenhum Re-Render
+        // Ele roda APENAS uma vez
     }, []);
 
     return (
