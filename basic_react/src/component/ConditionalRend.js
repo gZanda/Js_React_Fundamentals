@@ -3,8 +3,11 @@ import { useState } from "react";
 
 function ConditionalRend() { 
 
+    // State
     const [isTrue, setIsTrue] = useState(true);
 
+    // TRUE
+    // Anonymous function to change state on event
     if(isTrue){
         return(
             <div>
@@ -13,6 +16,8 @@ function ConditionalRend() {
             </div>
         )
     }
+    // FALSE
+    // Anonymous function to change state on event
     else{
         return(
             <div>
@@ -21,9 +26,6 @@ function ConditionalRend() {
             </div>
         )
     }
-
-
-
 }
 
 export default ConditionalRend;
