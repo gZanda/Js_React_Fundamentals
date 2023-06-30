@@ -13,6 +13,7 @@ import UseReffDemonstration from './component/UseReffHook';
 import ParentComponent from './component/PropsParent';
 import ContexParent from './component/UseContextParent';
 import Form from './component/FormHandle';
+import ConditionalRend from './component/ConditionalRend';
 
 function App() {
   return (
@@ -60,6 +61,10 @@ function App() {
       <br></br>
 
       <Form />
+
+      <br></br>
+
+      <ConditionalRend />
 
     </div>
   );
