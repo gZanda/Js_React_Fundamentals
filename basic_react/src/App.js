@@ -54,8 +54,6 @@ function App() {
 
       <ParentComponent />
 
-      <br></br>
-
       <ContexParent />
 
       <br></br>
