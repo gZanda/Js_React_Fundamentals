@@ -12,6 +12,7 @@ import EffectDemonstration from './component/UseEffectHook';
 import UseReffDemonstration from './component/UseReffHook';
 import ParentComponent from './component/PropsParent';
 import ContexParent from './component/UseContextParent';
+import Form from './component/FormHandle';
 
 function App() {
   return (
@@ -55,6 +56,10 @@ function App() {
       <br></br>
 
       <ContexParent />
+
+      <br></br>
+
+      <Form />
 
     </div>
   );
